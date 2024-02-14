@@ -10,23 +10,19 @@ export const css = () => {
 
     h1 {
       width: 100%;
+      text-align: center;
       color: #fff;
       font-size: 5rem;
       margin-bottom: 4rem;
-      background: linear-gradient(90deg, rgb(202, 1, 1), rgb(60, 0, 0));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      -webkit-text-stroke: 3px #550000;
       position: relative;
     }
 
     #container {
       width: 100%;
       display: flex;
-      justify-content: space-between;
-      div{
-        margin: 3px;
-      }
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
 
     @media only screen and (max-width: 767px) {
@@ -42,8 +38,8 @@ export const css = () => {
         }
 
         div div {
-            padding: 0;
-            margin: 0;
+          padding: 0;
+          margin: 0;
           margin-left: 0;
         }
       }

@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/5968/5968322.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFÓLIO</title>
     <style>
@@ -10,6 +13,7 @@
         margin: 0;
         padding: 0;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        scroll-behavior: smooth;
       }
 
       body {
@@ -17,7 +21,27 @@
       }
 
       ::-webkit-scrollbar {
-        display: none;
+        width: 3px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: black;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: white;
+        border-radius: 100px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: red;
+      }
+
+      #root {
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
       }
     </style>
   </head>

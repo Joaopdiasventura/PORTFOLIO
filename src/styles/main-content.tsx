@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const css = () => {
   return styled.div`
+  height: auto;
     #main-content {
+      width: auto;
       background-color: #111;
       border-radius: 10px;
       padding: 3rem;
@@ -11,6 +13,7 @@ export const css = () => {
       section {
         display: flex;
         flex-direction: column;
+        margin: 5px;
       }
       h2 {
         color: #fff;
@@ -30,18 +33,36 @@ export const css = () => {
           rgb(135, 0, 0) 98%
         );
         height: 3px;
-        width: 30%;
+        width: 100%;
       }
       p {
         color: #a6a6a6;
         margin-bottom: 1rem;
-        line-height: 1.3rem;
+        width: 40%;
+        display: flex;
+      }
+    }
+    #about {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      height: auto;
+      align-items: center;
+      .text {
+        width: 20%;
+        display: flex;
+        p {
+          line-height: 1.4;
+          font-size: 25px;
+          width: 95%;
+        }
       }
     }
     .technologies-grid {
       display: flex;
       flex-wrap: wrap;
       gap: 1.5rem;
+      justify-content: space-around;
     }
     .technology-card {
       display: flex;
@@ -50,14 +71,24 @@ export const css = () => {
       gap: 1rem;
       padding: 1rem;
       border: 1px solid #333;
-      width: 45%;
+      width: 20%;
       border-radius: 5px;
       svg {
-        font-size: 12rem;
+        font-size: 7.5rem;
+        text-align: center;
       }
       h3 {
         color: #fff;
         margin-bottom: 1rem;
+        text-align: center;
+        margin: 7.5px;
+      }
+      div {
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
       }
     }
   `;
