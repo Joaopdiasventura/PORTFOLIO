@@ -8,9 +8,10 @@ export const css = () => {
     align-items: center;
     flex-wrap: wrap;
     text-decoration: none;
-    small{
+    small {
       color: white;
       text-align: center;
+      width: 100%;
     }
     .project {
       transition: all 0.2s;
@@ -18,16 +19,19 @@ export const css = () => {
       background-color: #000;
       border-radius: 20px;
       padding: 1rem;
-      width: 70%;
+      width: 70vw;
       margin: 1rem 0;
+      max-width: 75%;
       a {
         text-decoration: none;
       }
-      h3 {
+      h4 {
         text-align: center;
-        font-size: 45px;
         color: #fff;
         margin: 1rem;
+        font-size: 3vw;
+        line-height: 3vw;
+        width: 100%;
       }
       div {
         gap: 10px;
@@ -40,8 +44,8 @@ export const css = () => {
           width: 30%;
         }
         p {
-          font-size: 30px;
-          line-height: 30px;
+          font-size: 1.5vw;
+          line-height: 1.5vw;
           width: 100%;
         }
       }

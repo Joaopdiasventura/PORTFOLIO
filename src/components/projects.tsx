@@ -8,7 +8,7 @@ function Projects() {
       <small>em todos os projetos utilize o email: teste@gmail.com com a senha: 123</small>
       <div className="project">
         <a href="https://instagram-sigma-steel.vercel.app/enter">
-          <h3>Rede Social</h3>
+          <h4>Rede Social</h4>
           <div>
             <img src="https://icones.pro/wp-content/uploads/2021/02/instagram-icone-rouge.png" />
             <p>
@@ -24,7 +24,7 @@ function Projects() {
       </div>
       <div className="project">
         <a href="https://chat-two-ochre-97.vercel.app/enter">
-          <h3>Chat em Tempo Real</h3>
+          <h4>Chat em Tempo Real</h4>
           <div>
             <img src="https://itaimbemaquinas.com.br/wp-content/uploads/sites/79/2020/07/zap-vermelho-300x300.png" />
             <p>

@@ -14,26 +14,30 @@ export const css = () => {
       text-align: center;
       position: relative;
       padding: 1rem;
-      width: auto;
-      margin: 0 3.5rem;
+      width: 15vw;
       height: auto;
       scale: 1.2;
+      margin: 3vw;
+      overflow: hidden;
+      max-width: 60%;
 
       img {
-        scale: 1.2;
         border-radius: 10px;
         top: 1.5rem;
+        width: 40%;
       }
 
       .title {
         color: #a6a6a6;
         border-radius: 5px;
-        margin-top: 1.5rem ;
+        margin-top: 1.5rem;
+        text-align: center;
       }
     }
 
     #social-networks {
       display: flex;
+      flex-wrap: wrap;
       flex-direction: row-reverse;
       justify-content: center;
       align-items: center;
@@ -46,7 +50,7 @@ export const css = () => {
       background-color: #1d1d1d;
       border-radius: 5px;
       color: #333;
-      font-size: 1.3rem;
+      font-size: 1.3vw;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -57,27 +61,15 @@ export const css = () => {
       scale: 1.2;
     }
 
-    #linkedin {
-      color: #0072b1;
-    }
-
-    #github {
-      color: #000;
-    }
-
-    #instagram {
-      color: #bc2a8d;
-    }
-
     #information {
       display: flex;
       align-items: center;
       flex-direction: column;
       background-color: #1d1d1d;
-      padding: 3rem;
       text-align: left;
       width: auto;
       border-radius: 5px;
+      height: auto;
     }
 
     .info-card {
@@ -85,24 +77,19 @@ export const css = () => {
       align-items: center;
       justify-content: start;
       gap: 1rem;
-      padding: 0.5rem;
-      margin-bottom: 0.8rem;
       border-bottom: 1px solid #444;
-      word-wrap: normal;
-      width: 100%;
+      width: 8vw;
+      height: auto;
 
       h3 {
         color: #a6a6a6;
-        font-size: 0.8rem;
+        font-size: 0.8vw;
         margin-bottom: 0.5rem;
       }
       p {
         color: #fff;
         font-weight: bold;
-        width: auto;
-        overflow: visible;
-        flex-wrap: nowrap;
-        word-wrap: inherit;
+        font-size: 0.6vw;
       }
     }
   `;

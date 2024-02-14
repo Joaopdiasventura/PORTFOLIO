@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const css = () => {
   return styled.div`
-  height: auto;
+    height: auto;
     #main-content {
       width: auto;
       background-color: #111;
@@ -13,11 +13,12 @@ export const css = () => {
       section {
         display: flex;
         flex-direction: column;
-        margin: 5px;
+        height: auto;
+        margin: 1vw;
       }
       h2 {
         color: #fff;
-        font-size: 2.2rem;
+        font-size: 2.2vw;
         margin-bottom: 1.3rem;
         display: flex;
         justify-content: center;
@@ -53,7 +54,7 @@ export const css = () => {
         display: flex;
         p {
           line-height: 1.4;
-          font-size: 25px;
+          font-size: 2.5vh;
           width: 95%;
         }
       }
@@ -71,10 +72,10 @@ export const css = () => {
       gap: 1rem;
       padding: 1rem;
       border: 1px solid #333;
-      width: 20%;
+      width: 15vw;
       border-radius: 5px;
       svg {
-        font-size: 7.5rem;
+        font-size: 5vw;
         text-align: center;
       }
       h3 {
@@ -82,6 +83,7 @@ export const css = () => {
         margin-bottom: 1rem;
         text-align: center;
         margin: 7.5px;
+        font-size: 1vw;
       }
       div {
         flex-wrap: nowrap;
