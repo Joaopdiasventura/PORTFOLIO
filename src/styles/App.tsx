@@ -12,9 +12,9 @@ export const css = () => {
       width: 100%;
       text-align: center;
       color: #fff;
-      font-size: 5rem;
-      margin-bottom: 4rem;
-      -webkit-text-stroke: 3px #550000;
+      font-size: 5vw;
+      margin-bottom: 1vh;
+      -webkit-text-stroke: 0.2vw #550000;
       position: relative;
     }
 

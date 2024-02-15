@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const css = () => {
   return styled.div`
     height: auto;
+    overflow: hidden;
     #main-content {
       width: auto;
       background-color: #111;
-      border-radius: 10px;
+      border-radius: 2vw;
       padding: 3rem;
       position: relative;
       position: relative;
@@ -93,5 +94,13 @@ export const css = () => {
         align-items: center;
       }
     }
+    
+    @media only screen and (max-width: 767px) {
+      
+    #about {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
   `;
 };

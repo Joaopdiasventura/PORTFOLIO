@@ -70,6 +70,7 @@ export const css = () => {
       width: auto;
       border-radius: 5px;
       height: auto;
+      padding: 1vw;
     }
 
     .info-card {
