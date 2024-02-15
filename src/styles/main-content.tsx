@@ -47,7 +47,7 @@ export const css = () => {
     #about {
       display: flex;
       flex-direction: row;
-      justify-content: start;
+      justify-content: center;
       height: auto;
       align-items: center;
       .text {
