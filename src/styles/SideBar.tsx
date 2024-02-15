@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const css = () => {
   return styled.div`
     #sidebar {
-      text-align: center;
       background-color: #111;
       border: 1px solid #222;
       border-radius: 25px;
@@ -11,7 +10,6 @@ export const css = () => {
       height: 60%;
       flex-direction: column;
       align-items: center;
-      text-align: center;
       position: relative;
       padding: 1rem;
       width: 15vw;
@@ -28,10 +26,13 @@ export const css = () => {
       }
 
       .title {
+        text-align: center;
+        display: flex;
         color: #a6a6a6;
         border-radius: 5px;
         margin-top: 1.5rem;
-        text-align: center;
+        word-wrap: break-word;
+        word-break: break-all;
       }
     }
 

@@ -15,7 +15,7 @@ export const css = () => {
         display: flex;
         flex-direction: column;
         height: auto;
-        margin: 1vw;
+        margin: 2.5vh;
       }
       h2 {
         color: #fff;
