@@ -20,8 +20,8 @@ export const css = () => {
       max-width: 60%;
 
       img {
-        border-radius: 10px;
-        top: 1.5rem;
+        border-radius: 15px;
+        top: 0.2vh;
         width: 40%;
       }
 
