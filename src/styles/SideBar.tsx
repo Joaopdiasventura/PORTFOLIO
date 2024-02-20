@@ -21,7 +21,7 @@ export const css = () => {
 
       img {
         border-radius: 15px;
-        top: 0.2vh;
+        top: 0.5vh;
         width: 40%;
       }
 
