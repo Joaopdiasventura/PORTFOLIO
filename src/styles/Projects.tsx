@@ -12,6 +12,7 @@ export const css = () => {
       color: white;
       text-align: center;
       width: 100%;
+      font-size: 2vw;
     }
     .project {
       transition: all 0.2s;

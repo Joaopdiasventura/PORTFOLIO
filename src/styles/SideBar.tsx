@@ -33,6 +33,7 @@ export const css = () => {
         margin-top: 1.5rem;
         word-wrap: break-word;
         word-break: break-all;
+        font-size: 0.8vw;
       }
     }
 
