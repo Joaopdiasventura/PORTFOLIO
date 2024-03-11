@@ -8,7 +8,7 @@ function AboutMe() {
     <Content>
       <div className="informations">
         <div className="img">
-          <img src="src\assets\image.jpeg" alt="" />
+          <img src="./assets/image.jpeg" alt="" />
         </div>
         <h2>JOÃO PAULO DIAS VENTURA</h2>
         <p>DESENVOLVEDOR FULL-STACK</p>
